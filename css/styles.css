@@ -3,10 +3,6 @@
   color: #fff;
 }
 
-#features {
-  padding: 5% 5%;
-}
-
 body {
   font-family: 'Montserrat';
 }
@@ -20,7 +16,7 @@ h1 {
 
 h3 {
   font-family: 'Montserrat';
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 1.5rem;
 }
 
@@ -67,26 +63,20 @@ p {
 
 }
 
-.col-lg-4 {
+/* Feature Section */
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
   text-align: center;
+  padding: 5%;
 }
 
-.fa-circle-check {
+.icon {
   color: #ef8172;
 }
 
-.fa-circle-check:hover {
-  color: #ff4c68;
-}
-.fa-bullseye {
-  color: #ef8172;
-}
-.fa-bullseye:hover {
-  color: #ff4c68;
-}
-.fa-heart {
-  color: #ef8172;
-}
-.fa-heart:hover {
+.icon:hover {
   color: #ff4c68;
 }
