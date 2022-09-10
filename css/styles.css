@@ -1,6 +1,9 @@
 #title {
   background-color: #ff4c68;
   color: #fff;
+  z-index: -1;
+  position: relative;
+  margin-bottom: -15%;
 }
 
 body {
@@ -67,12 +70,16 @@ p {
 .title-image {
   transform: rotate(25deg);
   width: 60%;
-
+  position: relative;
+  z-index: 1;
 }
 
 /* Feature Section */
 #features {
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 2;
 }
 
 .feature-box {
@@ -114,4 +121,17 @@ p {
 .press-logo {
   width: 20%;
   margin:20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 7% 15%;
+}
+
+.pricing-box {
+  padding: 3% 2%;
+}
+
+.signuo-button {
+  width: 100%;
 }
